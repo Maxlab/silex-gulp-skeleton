@@ -1,0 +1,13 @@
+{
+    "require": {
+      "silex/silex": "<1.2.2",
+      "twig/twig": "~1.13,>=1.13.1",
+      "moust/silex-cache": "1.0.*@dev",
+      "symfony/twig-bridge": "~2.5",
+      "symfony/templating": "~2.6",
+      "silex/web-profiler" : "1.0.6",
+      "monolog/monolog": ">=1.0.0",
+      "symfony/monolog-bridge": "v2.4.2",
+      "firedog/firedog": "dev-master"
+    }
+}
