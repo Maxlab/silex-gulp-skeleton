@@ -3,25 +3,29 @@ Silex skeleton + gulp + livereload
 
 
 # Installation
-1.0 $ git init
-1.1 $ git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git
-1.2 $ git remote -v
-1.3 $ git fetch master
-1.4 $ git checkout master
-1.5 $ git remote remove master
+1.
+```sh
+$ git init
+$ git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git
+$ git remote -v
+$ git fetch master
+$ git checkout master
+$ git remote remove master
 
-OR one line command
+# OR one line command
 $ git init && git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git && git remote -v && git fetch master && git checkout master && git remote remove master
-
+```
 2. /app/config.dist.php rename to /app/config.php and setting up him
 
-3. $ sudo composer install
-4. $ sudo npm install
-5. $ sudo bower install - this step is optional
-6. $ gulp
+```sh
+$ sudo composer install
+$ sudo npm install
+$ sudo bower install - this step is optional
+$ gulp
 
-OR one line command
+# OR one line command
 $ sudo composer install && sudo npm install && sudo bower install && gulp
+```
 
 # The end
 Enjoy)
