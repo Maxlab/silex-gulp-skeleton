@@ -2,6 +2,7 @@
 namespace Controller;
 
 use Symfony\Component\HttpFoundation\Response;
+use FireDog\FB;
 
 class BaseController
 {
@@ -13,6 +14,7 @@ class BaseController
 
   public function index()
   {
+    FB::info('Hello!');
     return new Response($this->app['twig']->render('sceleton.twig'));
   }
 
