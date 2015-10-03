@@ -14,7 +14,8 @@ Silex skeleton + gulp + livereload
 
 3. $ sudo composer install
 4. $ sudo npm install
-5. $ gulp
+5. $ sudo bower install - this step is optional
+6. $ gulp
 
 # The end
 Enjoy)

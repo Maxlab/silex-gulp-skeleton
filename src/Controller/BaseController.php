@@ -14,7 +14,7 @@ class BaseController
 
   public function index()
   {
-    FB::info('Hello!');
+    FB::info('We are champions, my friends!');
     return new Response($this->app['twig']->render('sceleton.twig'));
   }
 
