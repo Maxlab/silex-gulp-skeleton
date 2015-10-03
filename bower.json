@@ -1,19 +1,18 @@
 {
   "name": "app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "authors": [
     "sunway_os <forsag1982@yandex.ru>"
   ],
-  "description": "test app",
+  "description": "lighty build",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "test"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5",
+    "bootstrap": "~3.3.5"
   }
 }

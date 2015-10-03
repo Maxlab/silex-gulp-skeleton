@@ -1,7 +1,8 @@
 # silex-gulp-skeleton
-silex gulp skeleton + livereload
+silex skeleton + gulp + livereload
 
-composer install
-npm install
+$ sudo composer install
+$ sudo npm install
+$ sudo gulp
 
 Enjoy)
