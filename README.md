@@ -26,7 +26,7 @@ $ sudo bower install - this step is optional
 $ gulp
 
 # OR one line command
-$ sudo composer install && sudo npm install && sudo bower install && gulp
+$ sudo composer install && sudo npm install && bower install && sudo gulp
 ```
 
 # The end
