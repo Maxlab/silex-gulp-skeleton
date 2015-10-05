@@ -20,11 +20,12 @@ $ git init && git remote add master git@github.com:Maxlab/silex-gulp-skeleton.gi
 ```sh
 $ sudo composer install
 $ sudo npm install
-$ sudo bower install - this step is optional
-$ gulp
+$ sudo chmod -R 777 .
+$ bower install
+$ sudo gulp
 
 # OR one line command
-$ sudo composer install && sudo npm install && bower install && sudo gulp
+$ sudo composer install && sudo chmod -R 777 . && sudo npm install && bower install && sudo gulp
 ```
 
 # The end
