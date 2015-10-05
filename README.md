@@ -11,10 +11,10 @@ $ git remote -v
 $ git fetch master
 $ git checkout master
 $ git remote remove master
-$ cp /app/config.dist.php /app/config.php
+$ cp ./app/config.distr.php ./app/config.php
 
 # OR one line command
-$ git init && git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git && git remote -v && git fetch master && git checkout master && git remote remove master && cp /app/config.dist.php /app/config.php
+$ git init && git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git && git remote -v && git fetch master && git checkout master && git remote remove master && cp ./app/config.distr.php ./app/config.php
 ```
 #### Step 2
 ```sh
