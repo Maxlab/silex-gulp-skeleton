@@ -11,14 +11,12 @@ $ git remote -v
 $ git fetch master
 $ git checkout master
 $ git remote remove master
+$ cp /app/config.dist.php /app/config.php
 
 # OR one line command
-$ git init && git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git && git remote -v && git fetch master && git checkout master && git remote remove master
+$ git init && git remote add master git@github.com:Maxlab/silex-gulp-skeleton.git && git remote -v && git fetch master && git checkout master && git remote remove master && cp /app/config.dist.php /app/config.php
 ```
 #### Step 2
-/app/config.dist.php rename to /app/config.php and setting up him
-
-#### Step 3
 ```sh
 $ sudo composer install
 $ sudo npm install
